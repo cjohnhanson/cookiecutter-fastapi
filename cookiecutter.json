@@ -1,0 +1,9 @@
+{
+  "author_name": "Cody Hanson",
+  "project_name": "",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "command": "{{ cookiecutter.project_slug }}",
+  "description": "{{cookiecutter.project_name}} is a fastapi service generated from https://github.com/cjohnhanson/cookiecutter-fastapi",
+  "version": "0.1.0",
+  "repo_url": ""
+}
